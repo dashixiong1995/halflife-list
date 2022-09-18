@@ -2,9 +2,9 @@ name: Build YueDu Sources files
 on:
   schedule:
     - cron: 0 0 * * 1
-#  push:
-#    branch:
-#      - "test"
+  push:
+    branch:
+      - "test"
 
 jobs:
   build:
